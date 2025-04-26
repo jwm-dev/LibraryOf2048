@@ -2,8 +2,6 @@ use std::fs::File;
 use std::io::{BufWriter, Write};
 
 pub fn generate_protoboards() {
-    type ProtoBoard = u16;
-
     let file = File::create("protoboards.txt").expect("Unable to create file");
     let mut writer = BufWriter::new(file);
 
@@ -24,7 +22,7 @@ pub fn generate_protoboards() {
 
         println!("t = {}: {} boards", t, boards_for_t.len());
 
-        for (index, board) in boards_for_t.iter().enumerate() {
+        for board in boards_for_t.iter() {
             total_count += 1;
 
             writeln!(writer, "Board #{} (t = {} filled tiles):", total_count, t)
