@@ -71,7 +71,7 @@ This project is inspired by Jonathan Basile's *[Library of Babel](https://librar
 - Visual analytics for tile distributions and win conditions
 - WebAssembly interface for browser-based board browsing
 
-## 🔗 Related Projects
+## Related Projects
 
 - **BoardViewer_2048**  
   Command-line interface for browsing protoboard states by ID.  
