@@ -71,6 +71,16 @@ This project is inspired by Jonathan Basile's *[Library of Babel](https://librar
 - Visual analytics for tile distributions and win conditions
 - WebAssembly interface for browser-based board browsing
 
+## 🔗 Related Projects
+
+- **BoardViewer_2048**  
+  Command-line interface for browsing protoboard states by ID.  
+  → [2048 Board Viewer CLI](https://github.com/jwm-dev/BoardViewer_2048)
+
+- **ProtoboardEnum_2048**  
+  Generates and indexes all 65,519 valid protoboard configurations — binary tile presence patterns on a 4×4 grid, used as structural templates for full 2048 board states.  
+  → [2048 Protoboard Enumeration](https://github.com/jwm-dev/ProtoboardEnum_2048)
+
 ## License
 
 MIT License. See `LICENSE` file.
